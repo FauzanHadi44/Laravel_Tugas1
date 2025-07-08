@@ -10,7 +10,7 @@
 <body class="pt-16 bg-[url('/profil/1bg.jpg')] bg-cover bg-center bg-fixed bg-no-repeat">
     <nav class="border-gray-200 bg-stone-400 fixed top-0 left-0 right-0 z-50 w-full shadow-md">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="{{ route('beranda') }}" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="{{ route('beranda2') }}" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002" />
                 </svg>                
@@ -18,14 +18,14 @@
             </a>
             <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
                 <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-stone-300 dark:hover:bg-gray-700 dark:hover:text-white">
-                    <span class="text-lg font-bold text-gray-900 dark:text-white font-mono">US</span>
+                    <span class="text-lg font-bold text-gray-900 dark:text-white font-mono">ID</span>
                 </button>
                 <div class="z-50 hidden my-4 text-base list-none bg-stone-400 divide-y divide-gray-100 rounded-lg shadow-sm dark:bg-gray-700" id="language-dropdown-menu">
                     <ul class="py-2 font-medium" role="none">
                         <li>
-                            <a href="{{ route('kontak2') }}" class="block px-4 py-2 text-sm text-gray-800 hover:bg-stone-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                            <a href="{{ route('kontak') }}" class="block px-4 py-2 text-sm text-gray-800 hover:bg-stone-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
                                 <div class="inline-flex items-center">
-                                    <span class="text-lg font-bold text-gray-900 dark:text-white font-mono">ID</span>
+                                    <span class="text-lg font-bold text-gray-900 dark:text-white font-mono">US</span>
                                 </div>
                             </a>
                         </li>
@@ -38,9 +38,9 @@
     <section>
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
             <header>
-                <h1 class="text-3xl font-bold text-gray-900 sm:text-3xl mt-8">Contacts</h1>
+                <h1 class="text-3xl font-bold text-gray-900 sm:text-3xl mt-8">Kontak</h1>
                 <p class="mt-2 max-w-md text-gray-500">
-                    If you're interested in collaborating, have any questions, or simply want to discuss technology and web development, feel free to reach out to me through my social media.
+                    Jika Anda tertarik untuk berkolaborasi, memiliki pertanyaan, atau sekadar ingin berdiskusi tentang teknologi dan pengembangan web, jangan ragu untuk menghubungi saya melalui media sosial saya.
                 </p>
             </header>
             <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -119,7 +119,7 @@
     
     <div class="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-stone-400 border border-gray-200 rounded-full bottom-4 left-1/2 dark:bg-gray-700 dark:border-gray-600">
         <div class="grid h-full max-w-lg grid-cols-5 mx-auto">
-            <a href="{{ route('beranda') }}" data-tooltip-target="tooltip-home" type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-s-full hover:bg-stone-300 dark:hover:bg-gray-800 group">
+            <a href="{{ route('beranda2') }}" data-tooltip-target="tooltip-home" type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-s-full hover:bg-stone-300 dark:hover:bg-gray-800 group">
                 <svg class="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-stone-400 dark:group-hover:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
                 </svg>
@@ -129,14 +129,14 @@
                 Home
                 <div class="tooltip-arrow" data-popper-arrow></div>
             </div>
-            <a href="{{ route('kontak') }}" data-tooltip-target="tooltip-wallet" type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-stone-300 dark:hover:bg-gray-800 group bg-stone-300" aria-current="page">
+            <a href="{{ route('kontak2') }}" data-tooltip-target="tooltip-wallet" type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-stone-300 dark:hover:bg-gray-800 group bg-stone-300" aria-current="page">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 mb-1 text-stone-400 dark:text-gray-400 group-hover:text-gray-500 dark:group-hover:text-blue-500">
                     <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clip-rule="evenodd" />
                 </svg>
                 <span class="sr-only">Contact</span>
             </a>
             <div id="tooltip-wallet" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
-                Contact Me
+                Hubungi Saya
                 <div class="tooltip-arrow" data-popper-arrow></div>
             </div>
             <div class="flex items-center justify-center">
@@ -151,24 +151,24 @@
                 Hello👋😍
                 <div class="tooltip-arrow" data-popper-arrow></div>
             </div>
-            <a href="{{ route('projek') }}" data-tooltip-target="tooltip-settings" type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-stone-300 dark:hover:bg-gray-800 group">
+            <a href="{{ route('projek2') }}" data-tooltip-target="tooltip-settings" type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-stone-300 dark:hover:bg-gray-800 group">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-stone-400 dark:group-hover:text-blue-500">
                     <path d="M19.5 21a3 3 0 0 0 3-3v-4.5a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3V18a3 3 0 0 0 3 3h15ZM1.5 10.146V6a3 3 0 0 1 3-3h5.379a2.25 2.25 0 0 1 1.59.659l2.122 2.121c.14.141.331.22.53.22H19.5a3 3 0 0 1 3 3v1.146A4.483 4.483 0 0 0 19.5 9h-15a4.483 4.483 0 0 0-3 1.146Z" />
                 </svg>
-                <span class="sr-only">Projects</span>
+                <span class="sr-only">Proyek</span>
             </a>
             <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
-                Projects
+                Proyek
                 <div class="tooltip-arrow" data-popper-arrow></div>
             </div>
             <a href="{{ asset('dokumen/cv-Fauzan Hadi.pdf') }}" data-tooltip-target="tooltip-profile" type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-e-full hover:bg-stone-300 dark:hover:bg-gray-800 group">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-stone-400 dark:group-hover:text-blue-500">
                     <path fill-rule="evenodd" d="M19.5 21a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3h-5.379a.75.75 0 0 1-.53-.22L11.47 3.66A2.25 2.25 0 0 0 9.879 3H4.5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h15Zm-6.75-10.5a.75.75 0 0 0-1.5 0v4.19l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V10.5Z" clip-rule="evenodd" />
                 </svg>
-                <span class="sr-only">Download My Resume</span>
+                <span class="sr-only">Download Resume Saya</span>
             </a>
             <div id="tooltip-profile" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
-                Download My Resume
+                Download Resume Saya
                 <div class="tooltip-arrow" data-popper-arrow></div>
             </div>
         </div>
