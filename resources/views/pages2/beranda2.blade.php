@@ -89,16 +89,16 @@
                         </div>
                     </div>
                     <div class="mt-4 flex sm:mt-6">
-                        <a href="{{ route('kontak2') }}" class="inline-block rounded-sm bg-stone-300 px-8 py-3 text-sm font-medium text-grey-700 transition hover:bg-stone-400 hover:rotate-2 focus:ring-3 focus:outline-hidden" href="#">
+                        <a href="{{ route('kontak2') }}" class="inline-block rounded-sm bg-stone-300 px-8 py-3 text-sm font-medium text-grey-700 transition hover:bg-stone-400 hover:rotate-2 focus:ring-3 focus:outline-hidden">
                             Hubungi Saya                    
                         </a>
-                        <a href="{{ asset('dokumen/cv-Fauzan Hadi.pdf') }}" target="_blank"  class="group relative inline-flex items-center overflow-hidden rounded-sm bg-stone-300 px-8 py-3 text-grey-700 focus:ring-3 focus:outline-hidden ml-4 hover:bg-stone-400" href="#">
+                        <a href="{{ asset('dokumen/cv-Fauzan Hadi.pdf') }}" target="_blank"  class="group relative inline-flex items-center overflow-hidden rounded-sm bg-stone-300 px-8 py-3 text-grey-700 focus:ring-3 focus:outline-hidden ml-4 hover:bg-stone-400">
                             <span class="absolute -start-full transition-all group-hover:start-4">
                                 <svg class="size-5 shadow-sm rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                                 </svg>
                             </span>
-                            <span class="text-sm font-medium transition-all group-hover:ms-4">Download CV</a>
+                            <span class="text-sm font-medium transition-all group-hover:ms-4 cursor-progress">Download CV</a>
                         </a>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                 Proyek
                 <div class="tooltip-arrow" data-popper-arrow></div>
             </div>
-            <a href="{{ asset('dokumen/cv-Fauzan Hadi.pdf') }}" data-tooltip-target="tooltip-profile" type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-e-full hover:bg-stone-300 dark:hover:bg-gray-800 group">
+            <a href="{{ asset('dokumen/cv-Fauzan Hadi.pdf') }}" data-tooltip-target="tooltip-profile" type="button" class="cursor-progress inline-flex flex-col items-center justify-center px-5 rounded-e-full hover:bg-stone-300 dark:hover:bg-gray-800 group">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-stone-400 dark:group-hover:text-blue-500">
                     <path fill-rule="evenodd" d="M19.5 21a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3h-5.379a.75.75 0 0 1-.53-.22L11.47 3.66A2.25 2.25 0 0 0 9.879 3H4.5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h15Zm-6.75-10.5a.75.75 0 0 0-1.5 0v4.19l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V10.5Z" clip-rule="evenodd" />
                 </svg>
